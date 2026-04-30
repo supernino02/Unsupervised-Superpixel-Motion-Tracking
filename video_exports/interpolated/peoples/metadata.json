@@ -1,0 +1,19 @@
+[
+    {
+        "slic_params": {
+            "M": 40,
+            "num_segments": 1000,
+            "smooth": 2
+        },
+        "matcher_params": {
+            "kernel": "KERNEL.xy"
+        },
+        "detector_params": {
+            "dist": "DISTANCE.overlap",
+            "tresh": 3.5,
+            "remember_rate": 0.25
+        },
+        "path": "integral_peoples.mp4",
+        "datetime": "2025-04-29T10:24:22.580567"
+    }
+]

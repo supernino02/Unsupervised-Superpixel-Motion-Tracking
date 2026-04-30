@@ -1,0 +1,39 @@
+[
+    {
+        "slic_params": {
+            "M": 30,
+            "num_segments": 300,
+            "smooth": 1
+        },
+        "matcher_params": {
+            "kernel": "KERNEL.rgb_xy",
+            "alpha": 0.6,
+            "s_rgb": 0.3,
+            "s_xy": 30
+        },
+        "detector_params": {
+            "dist": "DISTANCE.xy",
+            "tresh": 10
+        },
+        "path": "tennis_matching.mp4",
+        "datetime": "2025-04-28T22:10:24.292966"
+    },
+    {
+        "slic_params": {
+            "M": 30,
+            "num_segments": 300,
+            "smooth": 1
+        },
+        "matcher_params": {
+            "kernel": "KERNEL.patch_xy",
+            "s_patch": 5,
+            "s_xy": 30
+        },
+        "detector_params": {
+            "dist": "DISTANCE.xy",
+            "tresh": 10
+        },
+        "path": "tennis_matching_2.mp4",
+        "datetime": "2025-04-28T22:11:12.504004"
+    }
+]

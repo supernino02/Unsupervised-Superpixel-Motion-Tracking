@@ -1,0 +1,22 @@
+[
+    {
+        "slic_params": {
+            "M": 30,
+            "num_segments": 300,
+            "smooth": 2
+        },
+        "matcher_params": {
+            "kernel": "KERNEL.rgb_xy",
+            "alpha": 0.5,
+            "s_rgb": 5,
+            "s_xy": 30
+        },
+        "detector_params": {
+            "dist": "DISTANCE.overlap",
+            "tresh": 17,
+            "remember_rate": 0.1
+        },
+        "path": "integral_tennis.mp4",
+        "datetime": "2025-04-28T22:13:47.976653"
+    }
+]

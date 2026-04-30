@@ -1,0 +1,66 @@
+[
+    {
+        "slic_params": {
+            "M": 50,
+            "num_segments": 200,
+            "smooth": 1
+        },
+        "matcher_params": {
+            "kernel": "KERNEL.xy"
+        },
+        "detector_params": {
+            "dist": "DISTANCE.xy",
+            "tresh": 0
+        },
+        "path": "subway_slic.mp4",
+        "datetime": "2025-04-28T22:09:59.677828"
+    },
+    {
+        "slic_params": {
+            "M": 50,
+            "num_segments": 200,
+            "smooth": 1
+        },
+        "matcher_params": {
+            "kernel": "KERNEL.xy"
+        },
+        "detector_params": {
+            "dist": "DISTANCE.xy",
+            "tresh": 4
+        },
+        "path": "video_1.mp4",
+        "datetime": "2025-04-28T22:11:21.269397"
+    },
+    {
+        "slic_params": {
+            "M": 50,
+            "num_segments": 200,
+            "smooth": 1
+        },
+        "matcher_params": {
+            "kernel": "KERNEL.xy"
+        },
+        "detector_params": {
+            "dist": "DISTANCE.iou",
+            "tresh": -0.8
+        },
+        "path": "video_2.mp4",
+        "datetime": "2025-04-28T22:11:34.325658"
+    },
+    {
+        "slic_params": {
+            "M": 50,
+            "num_segments": 200,
+            "smooth": 1
+        },
+        "matcher_params": {
+            "kernel": "KERNEL.xy"
+        },
+        "detector_params": {
+            "dist": "DISTANCE.overlap",
+            "tresh": 12
+        },
+        "path": "video_3.mp4",
+        "datetime": "2025-04-28T22:11:53.490059"
+    }
+]

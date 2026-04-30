@@ -1,0 +1,36 @@
+[
+    {
+        "slic_params": {
+            "M": 50,
+            "num_segments": 200,
+            "smooth": 1
+        },
+        "matcher_params": {
+            "kernel": "KERNEL.xy"
+        },
+        "detector_params": {
+            "dist": "DISTANCE.overlap",
+            "tresh": 12,
+            "remember_rate": 0.75
+        },
+        "path": "video_1.mp4",
+        "datetime": "2025-04-28T22:12:15.836370"
+    },
+    {
+        "slic_params": {
+            "M": 50,
+            "num_segments": 200,
+            "smooth": 1
+        },
+        "matcher_params": {
+            "kernel": "KERNEL.xy"
+        },
+        "detector_params": {
+            "dist": "DISTANCE.overlap",
+            "tresh": 12,
+            "remember_rate": 0.7
+        },
+        "path": "integral_subway.mp4",
+        "datetime": "2025-04-28T22:13:21.819163"
+    }
+]
