@@ -9,6 +9,7 @@ The primary objective of this notebook is to identify and track moving objects w
 3. **Detection**: Identifying which superpixels correspond to a moving object based on their displacement and overlap across frames.
 
 ![Segmentation, Matching and Detection Overview](images/stennis/stennis_001.jpg) 
+<br>
 *(Note: Visual overview, refer to the notebook for the full qualitative results)*
 
 ### Detection Previews
